@@ -1,2 +1,2 @@
-# Los Anggeles County Homelessness Data 
+# Los Angeles County Homelessness Data 
 
