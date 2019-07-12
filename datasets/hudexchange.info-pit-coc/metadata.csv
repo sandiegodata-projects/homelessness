@@ -1,0 +1,128 @@
+Declare,metatab-latest
+Title,HUD Point in Time Counts by CoC
+Description,"Combined years of sheltered and unsheltered homeless counts, by CoC."
+Identifier,d17b5142-b3b7-4c74-9819-479fa7cfaf97
+Name,hudexchange.info-pit-coc-1
+Dataset,pit
+Origin,hudexchange.info
+Time,
+Space,
+Grain,coc
+Variant,
+Version,1
+Created,2019-07-07T14:59:06
+Modified,2019-07-09T22:23:01
+Giturl,https://github.com/sandiegodata-projects/homelessness.git
+""
+Section,Contacts,Email,Organization,Url,
+Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com,
+Publisher,,,US Department of Housing and Urban Development,https://www.hud.gov/,
+""
+Section,Documentation,Title,Description,,
+Documentation,file:README.md,README,,,
+Downloadpage,https://www.hudexchange.info/resource/3031/pit-and-hic-data-since-2007/,PIT and HIC Data Since 2007,,,
+Documentation,https://github.com/sandiegodata-projects/homelessness/blob/master/datasets/hudexchange.com-pit-coc/notebooks/eda-pitc_coc.ipynb,EDA Notebook For pitc_coc,Jupyter EDA notebook.,,
+""
+Section,References,Name,Description,Group,Year
+Reference,https://www.hudexchange.info/resources/documents/2007-2018-PIT-Counts-by-CoC.xlsx#2018,pitc_coc_2018,2007 - 2018 PIT Counts by CoC; 2018 workbook,pit_coc,2018
+Reference,https://www.hudexchange.info/resources/documents/2007-2018-PIT-Counts-by-CoC.xlsx#2017,pitc_coc_2017,2006 - 2018 PIT Counts by CoC; 2017 workbook,pit_coc,2017
+Reference,https://www.hudexchange.info/resources/documents/2007-2018-PIT-Counts-by-CoC.xlsx#2016,pitc_coc_2016,2005 - 2018 PIT Counts by CoC; 2016 workbook,pit_coc,2016
+Reference,https://www.hudexchange.info/resources/documents/2007-2018-PIT-Counts-by-CoC.xlsx#2015,pitc_coc_2015,2004 - 2018 PIT Counts by CoC; 2015 workbook,pit_coc,2015
+Reference,https://www.hudexchange.info/resources/documents/2007-2018-PIT-Counts-by-CoC.xlsx#2014,pitc_coc_2014,2003 - 2018 PIT Counts by CoC; 2014 workbook,pit_coc,2014
+Reference,https://www.hudexchange.info/resources/documents/2007-2018-PIT-Counts-by-CoC.xlsx#2013,pitc_coc_2013,2002 - 2018 PIT Counts by CoC; 2013 workbook,pit_coc,2013
+Reference,https://www.hudexchange.info/resources/documents/2007-2018-PIT-Counts-by-CoC.xlsx#2012,pitc_coc_2012,2001 - 2018 PIT Counts by CoC; 2012 workbook,pit_coc,2012
+Reference,https://www.hudexchange.info/resources/documents/2007-2018-PIT-Counts-by-CoC.xlsx#2011,pitc_coc_2011,2000 - 2018 PIT Counts by CoC; 2011 workbook,pit_coc,2011
+Reference,https://www.hudexchange.info/resources/documents/2007-2018-PIT-Counts-by-CoC.xlsx#2010,pitc_coc_2010,1999 - 2018 PIT Counts by CoC; 2010 workbook,pit_coc,2010
+Reference,https://www.hudexchange.info/resources/documents/2007-2018-PIT-Counts-by-CoC.xlsx#2009,pitc_coc_2009,1998 - 2018 PIT Counts by CoC; 2009 workbook,pit_coc,2009
+Reference,https://www.hudexchange.info/resources/documents/2007-2018-PIT-Counts-by-CoC.xlsx#2008,pitc_coc_2008,1997 - 2018 PIT Counts by CoC; 2008 workbook,pit_coc,2008
+Reference,https://www.hudexchange.info/resources/documents/2007-2018-PIT-Counts-by-CoC.xlsx#2007,pitc_coc_2007,1996 - 2018 PIT Counts by CoC; 2007 workbook,pit_coc,2007
+""
+Section,Resources,Name,Description,,
+Datafile,notebooks/Combine.ipynb#df,pitc_coc,"Combined pitc, 2007 to 2018",,
+""
+Section,Schema,DataType,AltName,Description,Has_Codes
+Table,pitc_coc,,,,
+Table.Column,year,integer,,,
+Table.Column,coc_number,string,,,
+Table.Column,coc_name,text,,,
+Table.Column,coc_category,string,,,
+Table.Column,chronically_homeless,integer,,,
+Table.Column,chronically_homeless_individuals,integer,,,
+Table.Column,chronically_homeless_people_in_families,integer,,,
+Table.Column,homeless_children_of_parenting_youth,integer,,,
+Table.Column,homeless_family_households,integer,,,
+Table.Column,homeless_individuals,integer,,,
+Table.Column,homeless_parenting_youth_age_18_24,integer,,,
+Table.Column,homeless_parenting_youth_under_18,integer,,,
+Table.Column,homeless_parenting_youth_under_25,integer,,,
+Table.Column,homeless_people_in_families,integer,,,
+Table.Column,homeless_unaccompanied_youth_age_18_24,integer,,,
+Table.Column,homeless_unaccompanied_youth_under_18,integer,,,
+Table.Column,homeless_unaccompanied_youth_under_25,integer,,,
+Table.Column,homeless_veterans,integer,,,
+Table.Column,overall_homeless,integer,,,
+Table.Column,sheltered_es_chronically_homeless,integer,,,
+Table.Column,sheltered_es_chronically_homeless_individuals,integer,,,
+Table.Column,sheltered_es_chronically_homeless_people_in_families,integer,,,
+Table.Column,sheltered_es_homeless,integer,,,
+Table.Column,sheltered_es_homeless_children_of_parenting_youth,integer,,,
+Table.Column,sheltered_es_homeless_family_households,integer,,,
+Table.Column,sheltered_es_homeless_individuals,integer,,,
+Table.Column,sheltered_es_homeless_parenting_youth_age_18_24,integer,,,
+Table.Column,sheltered_es_homeless_parenting_youth_under_18,integer,,,
+Table.Column,sheltered_es_homeless_parenting_youth_under_25,integer,,,
+Table.Column,sheltered_es_homeless_people_in_families,integer,,,
+Table.Column,sheltered_es_homeless_unaccompanied_youth_age_18_24,integer,,,
+Table.Column,sheltered_es_homeless_unaccompanied_youth_under_18,integer,,,
+Table.Column,sheltered_es_homeless_unaccompanied_youth_under_25,integer,,,
+Table.Column,sheltered_es_homeless_veterans,integer,,,
+Table.Column,sheltered_sh_chronically_homeless,integer,,,
+Table.Column,sheltered_sh_chronically_homeless_individuals,integer,,,
+Table.Column,sheltered_sh_homeless,integer,,,
+Table.Column,sheltered_sh_homeless_individuals,integer,,,
+Table.Column,sheltered_sh_homeless_unaccompanied_youth_age_18_24,integer,,,
+Table.Column,sheltered_sh_homeless_unaccompanied_youth_under_18,integer,,,
+Table.Column,sheltered_sh_homeless_unaccompanied_youth_under_25,integer,,,
+Table.Column,sheltered_sh_homeless_veterans,integer,,,
+Table.Column,sheltered_th_homeless,integer,,,
+Table.Column,sheltered_th_homeless_children_of_parenting_youth,integer,,,
+Table.Column,sheltered_th_homeless_family_households,integer,,,
+Table.Column,sheltered_th_homeless_individuals,integer,,,
+Table.Column,sheltered_th_homeless_parenting_youth_age_18_24,integer,,,
+Table.Column,sheltered_th_homeless_parenting_youth_under_18,integer,,,
+Table.Column,sheltered_th_homeless_parenting_youth_under_25,integer,,,
+Table.Column,sheltered_th_homeless_people_in_families,integer,,,
+Table.Column,sheltered_th_homeless_unaccompanied_youth_age_18_24,integer,,,
+Table.Column,sheltered_th_homeless_unaccompanied_youth_under_18,integer,,,
+Table.Column,sheltered_th_homeless_unaccompanied_youth_under_25,integer,,,
+Table.Column,sheltered_th_homeless_veterans,integer,,,
+Table.Column,sheltered_total_chronically_homeless,integer,,,
+Table.Column,sheltered_total_chronically_homeless_individuals,integer,,,
+Table.Column,sheltered_total_chronically_homeless_people_in_families,integer,,,
+Table.Column,sheltered_total_homeless,integer,,,
+Table.Column,sheltered_total_homeless_children_of_parenting_youth,integer,,,
+Table.Column,sheltered_total_homeless_family_households,integer,,,
+Table.Column,sheltered_total_homeless_individuals,integer,,,
+Table.Column,sheltered_total_homeless_parenting_youth_age_18_24,integer,,,
+Table.Column,sheltered_total_homeless_parenting_youth_under_18,integer,,,
+Table.Column,sheltered_total_homeless_parenting_youth_under_25,integer,,,
+Table.Column,sheltered_total_homeless_people_in_families,integer,,,
+Table.Column,sheltered_total_homeless_unaccompanied_youth_age_18_24,integer,,,
+Table.Column,sheltered_total_homeless_unaccompanied_youth_under_18,integer,,,
+Table.Column,sheltered_total_homeless_unaccompanied_youth_under_25,integer,,,
+Table.Column,sheltered_total_homeless_veterans,integer,,,
+Table.Column,unsheltered_chronically_homeless,integer,,,
+Table.Column,unsheltered_chronically_homeless_individuals,integer,,,
+Table.Column,unsheltered_chronically_homeless_people_in_families,integer,,,
+Table.Column,unsheltered_homeless,integer,,,
+Table.Column,unsheltered_homeless_children_of_parenting_youth,integer,,,
+Table.Column,unsheltered_homeless_family_households,integer,,,
+Table.Column,unsheltered_homeless_individuals,integer,,,
+Table.Column,unsheltered_homeless_parenting_youth_age_18_24,integer,,,
+Table.Column,unsheltered_homeless_parenting_youth_under_18,integer,,,
+Table.Column,unsheltered_homeless_parenting_youth_under_25,integer,,,
+Table.Column,unsheltered_homeless_people_in_families,integer,,,
+Table.Column,unsheltered_homeless_unaccompanied_youth_age_18_24,integer,,,
+Table.Column,unsheltered_homeless_unaccompanied_youth_under_18,integer,,,
+Table.Column,unsheltered_homeless_unaccompanied_youth_under_25,integer,,,
+Table.Column,unsheltered_homeless_veterans,integer,,,

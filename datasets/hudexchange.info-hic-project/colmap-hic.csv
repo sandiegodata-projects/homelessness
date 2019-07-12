@@ -1,0 +1,108 @@
+index,hic_2018,hic_2017,hic_2016,hic_2015,hic_2014,hic_2013,hic_2012
+row,Row #,Row #,Row #,Row #,Row #,Row #,RowID
+cocstate,CocState,,CoCState,CoCState,,,
+coc,CoC,CoC,CoC,CoC,CoC,CoC,CoC Name
+coc_id,Coc\ID,Coc\ID,Coc\ID,Coc\ID,Coc\ID,Coc\ID,CoC ID
+hudnum,HudNum,HudNum,HudNum,HudNum,HudNum,HudNum,HUD CoC Number
+status,Status,Status,Status,Status,Status,Status,
+year,year,year,year,year,year,year,Year
+organization_id,Organization ID,Organization ID,Organization ID,,,,
+organization_name,Organization Name,Organization Name,Organization Name,Organization Name,Organization Name,Organization Name,Organization Name
+address1,address1,address1,Address1,Address1,,,
+address2,address2,address2,Address2,Address2,,,
+city,city,city,City,City,,,
+state,state,State,State,State,State,State,State
+zip,zip,zip,Zip,Zip,,,
+project_id,Project ID,Project ID,Project ID,,,,
+project_name,Project Name,Project Name,Project Name,Project Name,Project Name,,
+project_type,Project Type,Project Type,Project Type,Project Type,Project Type,,
+bed_type,Bed Type,Bed Type,Bed Type,Bed Type,Bed Type,Bed Type,Bed Type
+geo_code,Geo Code,Geo Code,Geo Code,Geo Code,Geo Code,Geo Code,Geo Code
+inventory_type,Inventory Type,Inventory Type,Inventory Type,Inventory Type,Inventory Type,Inventory Type,Inventory Type
+begin_op_within_year,beginsOperationsWithinYear,beginsOperationsWithinYear,beginsOperationsWithinYear,beginsOperationsWithinYear,beginsOperationsWithinYear,beginsOperationsWithinYear,
+target_population_a,Target Population A,Target Population A,Target Population A,Target Population A,Target Population A,Target Population A,Target Population A
+target_population_b,Target Population B,Target Population B,Target Population B,Target Population B,Target Population B,Target Population B,Target Population B
+mc_kinney_vento,Mc Kinney-Vento,Mc Kinney-Vento,Mc Kinney-Vento,Mc Kinney-Vento,Mc Kinney-Vento,Mc Kinney-Vento,Mc Kinney-Vento
+mckinneyventoesg,mcKinneyVentoEsg,,,,,,
+mckinneyventoesges,mcKinneyVentoEsgEs,mcKinneyVentoEsgEs,,,,,
+mckinneyventoesgrrh,mcKinneyVentoEsgRrh,mcKinneyVentoEsgRrh,,,,,
+mckinneyventococ,mcKinneyVentoCoc,,,,,,
+mckinneyventococsh,mcKinneyVentoCocSh,mcKinneyVentoCocSh,,,,,
+mckinneyventococth,mcKinneyVentoCocTh,mcKinneyVentoCocTh,,,,,
+mckinneyventococpsh,mcKinneyVentoCocPsh,mcKinneyVentoCocPsh,,,,,
+mckinneyventococrrh,mcKinneyVentoCocRrh,mcKinneyVentoCocRrh,,,,,
+mckinneyventococsro,mcKinneyVentoCocSro,mcKinneyVentoCocSro,,,,,
+mckinneyventospc,mcKinneyVentoSpC,mcKinneyVentoSpC,,,,,
+mckinneyventos8,mcKinneyVentoS8,mcKinneyVentoS8,,,,,
+mckinneyventoshp,mcKinneyVentoShp,mcKinneyVentoShp,,,,,
+federalfunding,federalFunding,federalFunding,federalFunding,,,,
+federalfundingvash,federalFundingVash,federalFundingVash,federalFundingVash,,,,
+federalfundingssvf,federalFundingSsvf,federalFundingSsvf,federalFundingSsvf,,,,
+federalfundinggpd,federalFundingGpd,federalFundingGpd,federalFundingGpd,,,,
+federalfundinggpdbh,federalFundingGpdBh,,,,,,
+federalfundinggpdld,federalFundingGpdLd,,,,,,
+federalfundinggpdhh,federalFundingGpdHh,,,,,,
+federalfundinggpdct,federalFundingGpdCt,,,,,,
+federalfundinggpdsith,federalFundingGpdSith,,,,,,
+federalfundinggpdtp,federalFundingGpdTp,,,,,,
+federalfundinghchv,federalFundingHchv,federalFundingHchv,federalFundingHchv,,,,
+federalfundinghchvcrs,federalFundingHchvCrs,,,,,,
+federalfundinghchvsh,federalFundingHchvSh,,,,,,
+federalfundingcwt,federalFundingCwt,federalFundingCwt,federalFundingCwt,,,,
+federalfundingbcp,federalFundingBcp,federalFundingBcp,federalFundingBcp,,,,
+federalfundingtlp,federalFundingTlp,federalFundingTlp,federalFundingTlp,,,,
+federalfundingmgh,federalFundingMgh,federalFundingMgh,federalFundingMgh,,,,
+federalfundingrhydp,federalFundingRhyDp,,,,,,
+federalfundinghopwa,federalFundingHopwa,federalFundingHopwa,federalFundingHopwa,,,,
+federalfundinghopwahmv,federalFundingHopwaHmv,,,,,,
+federalfundinghopwaph,federalFundingHopwaPh,,,,,,
+federalfundinghopwastsf,federalFundingHopwaStsf,,,,,,
+federalfundinghopwath,federalFundingHopwaTh,,,,,,
+federalfundingpih,federalFundingPih,federalFundingPih,federalFundingPih,,,,
+federalfundingother,federalFundingOther,federalFundingOther,federalFundingOther,,,,
+federalfundingotherspecify,federalFundingOtherSpecify,federalFundingOtherSpecify,federalFundingOtherSpecify,,,,
+housingtype,housingType,housingType,,,,,
+victim_service_provider,Victim Service Provider,Victim Service Provider,Victim Service Provider,Victim Service Provider,,,
+beds_hh_w_children,Beds HH w/ Children,Beds HH w/ Children,Beds HH w/ Children,Beds HH w/ Children,Beds HH w/ Children,Beds HH w/ Children,Beds for Households With Children
+units_hh_w_children,Units HH w/ Children,Units HH w/ Children,Units HH w/ Children,Units HH w/ Children,Units HH w/ Children,Units HH w/ Children,Units for Households With Children
+hmis_beds_hh_w_children,HMIS Beds HH w/ Children,HMIS Beds HH w/ Children,HMIS Beds HH w/ Children,HMIS Beds HH w/ Children,HMIS Beds HH w/ Children,HMIS Beds HH w/ Children,HMIS Beds for Households With Children
+veteran_beds_hh_w_children,Veteran Beds HH w/ Children,Veteran Beds HH w/ Children,Veteran Beds HH w/ Children,,,,
+youth_beds_hh_w_children,Youth Beds HH w/ Children,Youth Beds HH w/ Children,Youth Beds HH w/ Children,,,,
+ch_beds_hh_w_children,CH Beds HH w/ Children,CH Beds HH w/ Children,CH Beds HH w/ Children,,,,
+beds_hh_w_o_children,Beds HH w/o Children,Beds HH w/o Children,Beds HH w/o Children,Beds HH w/o Children,Beds HH w/o Children,Beds HH w/o Children,Beds for Households Without Children
+hmis_beds_hh_w_o_children,HMIS Beds HH w/o Children,HMIS Beds HH w/o Children,HMIS Beds HH w/o Children,HMIS Beds HH w/o Children,HMIS Beds HH w/o Children,HMIS Beds HH w/o Children,HMIS Beds for Households Without Children
+veteran_beds_hh_w_o_children,Veteran Beds HH w/o Children,Veteran Beds HH w/o Children,Veteran Beds HH w/o Children,,,,
+youth_beds_hh_w_o_children,Youth Beds HH w/o Children,Youth Beds HH w/o Children,Youth Beds HH w/o Children,,,,
+ch_beds_hh_w_o_children,CH Beds HH w/o Children,CH Beds HH w/o Children,CH Beds HH w/o Children,,,,
+beds_hh_w_only_children,Beds HH w/ only Children,Beds HH w/ only Children,Beds HH w/ only Children,Beds HH w/ only Children,Beds HH w/ only Children,Beds HH w/ only Children,Beds for Households With Only Children
+hmis_beds_hh_w_only_children,HMIS Beds HH w/ only Children,HMIS Beds HH w/ only Children,HMIS Beds HH w/ only Children,HMIS Beds HH w/ only Children,HMIS Beds HH w/ only Children,HMIS Beds HH w/ only Children,HMIS Beds for Households With Only Children
+ch_beds_hh_w_only_children,CH Beds HH w only Children,CH Beds HH w only Children,CH Beds HH w only Children,,,,
+year_round_beds,Year-Round Beds,Year-Round Beds,Year-Round Beds,Year-Round Beds,Year-Round Beds,Year-Round Beds,Total Year Round Beds
+dv_beds,DV Beds,DV Beds,DV Beds,DV Beds,DV Beds,DV Beds,Domestic Violence Beds
+total_seasonal_beds,Total Seasonal Beds,Total Seasonal Beds,Total Seasonal Beds,Total Seasonal Beds,Total Seasonal Beds,Total Seasonal Beds,Total Seasonal Beds
+seasonal_beds_available_in_hmis,Seasonal Beds Available in HMIS,Seasonal Beds Available in HMIS,Seasonal Beds Available in HMIS,Seasonal Beds Available in HMIS,Seasonal Beds Available in HMIS,Seasonal Beds Available in HMIS,Seasonal Beds Available in HMIS
+availability_start_date,Availability Start Date,Availability Start Date,Availability Start Date,Availability Start Date,Availability Start Date,Availability Start Date,Availability Start Date
+availability_end_date,Availability End Date,Availability End Date,Availability End Date,Availability End Date,Availability End Date,Availability End Date,Availability End Date
+o_v_beds,O/V Beds,O/V Beds,O/V Beds,O/V Beds,O/V Beds,O/V Beds,Overflow and Voucher Beds
+hmis_o_v_beds,HMIS O/V Beds,HMIS O/V Beds,HMIS O/V Beds,HMIS O/V Beds,HMIS O/V Beds,HMIS O/V Beds,HMIS Overflow and Voucher Beds
+pit_count,PIT Count,PIT Count,PIT Count,PIT Count,PIT Count,PIT Count,PIT Count
+total_beds,Total Beds,Total Beds,Total Beds,Total Beds,Total Beds,Total Beds,Total Beds
+updated_on,Updated On,Updated On,Updated On,Updated On,Updated On,Updated On,
+mergeddefunctyear,mergedDefunctYear,mergedDefunctYear,mergedDefunctYear,mergedDefunctYear,mergedDefunctYear,mergedDefunctYear,
+questionusesdescriptorelements,questionUsesDescriptorElements,questionUsesDescriptorElements,questionUsesDescriptorElements,,,,
+questiondesirestousedescriptorelements,questionDesiresToUseDescriptorElements,questionDesiresToUseDescriptorElements,questionDesiresToUseDescriptorElements,,,,
+projectnotes,projectNotes,projectNotes,,,,,
+sandyrelated,sandyRelated,sandyRelated,,,,sandyRelated,
+sandyrelatednote,sandyRelatedNote,sandyRelatedNote,,,,,
+mckinneyventococsso,,mcKinneyVentoCocSso,,,,,
+projectstate,,ProjectState,,,,,
+th_unit_type,,,TH Unit Type,,,,
+scattered_sites,,,Scattered Sites,Scattered Sites,,,
+ch_beds,,,,CH Beds,CH Beds,CH Beds,Chronically Homeless Beds
+yearveteranbedcount,,,,yearVeteranBedCount,yearVeteranBedCount,,
+yearyouthbedcount,,,,yearYouthBedCount,yearYouthBedCount,,
+youthagegroup,,,,youthAgeGroup,youthAgeGroup,,
+program_name,,,,,,Program Name,Program Name
+program_type,,,,,,Program Type,Program Type
+usesrrhmodel,,,,,,usesRrhModel,
+notes,notes,notes,notes,,,,

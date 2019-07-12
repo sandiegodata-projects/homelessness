@@ -13,6 +13,8 @@ PACKAGE_NAMES=\
 economicrt.org-demographic_survey \
 lahsa.org-homeless_count \
 rtfhsd.org-pitc-2010 \
-arcgis.com-risk 
+arcgis.com-risk \
+hudexchange.info-hic-project \
+hudexchange.info-pit-coc
 
 include $(shell mp mk)

@@ -1,0 +1,27 @@
+Declare,metatab-latest
+Title,
+Description,
+Identifier,c5d754aa-f3d0-4819-b2a5-04d588428475
+Name,hudexchange.info-hic-coc-1
+Dataset,hic
+Origin,hudexchange.info
+Time,
+Space,
+Grain,coc
+Variant,
+Version,1
+Created,2019-07-09T22:26:47
+Modified,2019-07-09T22:26:48
+Giturl,https://github.com/sandiegodata-projects/homelessness.git
+""
+Section,Contacts,Email,Organization,Url
+Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
+""
+Section,Documentation,Title,Description,
+Documentation,file:README.md,README,,
+""
+Section,References,Name,Description,
+""
+Section,Resources,Name,Description,
+""
+Section,Schema,DataType,AltName,Description
