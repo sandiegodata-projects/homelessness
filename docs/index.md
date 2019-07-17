@@ -46,6 +46,7 @@ project](https://github.com/sandiegodata-projects/homelessness)
 ](https://data.sandiegodata.org/collections/urban-planning/)
 * [Homeless map digitization project](https://downtown-homelesness.sandiegodata.org/)
 * [Tutorial Jupyter Notebook](https://colab.research.google.com/drive/1V2e77fMlddOsGJinbCZC7WWVHdC8MJ69)
+* [PITC And Planning Geodatabase](https://github.com/sandiegodata-projects/homelessness/blob/master/geo/homelessness.gpkg?raw=true) A Geodatabase file, with an embedded QGIS project, with select homelessness files and the San Diego planning database. 
 
 ## Tools
 
