@@ -15,6 +15,7 @@ lahsa.org-homeless_count \
 rtfhsd.org-pitc-2010 \
 arcgis.com-risk \
 hudexchange.info-hic-project \
-hudexchange.info-pit-coc
+hudexchange.info-pit-coc \
+sandiegodata.org-hic_geocode
 
 include $(shell mp mk)

@@ -10,6 +10,7 @@ Space,los_angeles
 Grain,
 Variant,
 Version,2
+Tag,los_angeles
 Created,2018-10-15T17:42:20
 Modified,2019-07-04T23:08:29
 Issued,2019-01-18T20:55:43
@@ -18,21 +19,21 @@ Distribution,http://library.metatab.org/lahsa.org-homeless_count-2018-los_angele
 Distribution,http://library.metatab.org/lahsa.org-homeless_count-2018-los_angeles-1.csv
 Ckanid,0e334988-91ea-495c-afca-257dcf033e31
 Giturl,https://github.com/SDRDLAnalysts/data-projects.git
-""
+
 Section,Contacts,Email,Organization,Url
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
 Creator,Los Angeles Homeless Services Authority,,,https://www.lahsa.org/
-""
+
 Section,Documentation,Title,Description,
 Documentation,http://library.metatab.org/lahsa.org-homeless_count-2018-los_angeles-1/README.md,README,,
 Homepage,https://www.lahsa.org/,Los Angeles Homeless Services Authority,,
 Downloadpage,https://www.lahsa.org/documents?id=2065-homeless-count-2018-results-by-census-tract.xlsx,Download,Dataset in downloadable form.,
-""
+
 Section,Resources,Name,Description,
 Datafile,http://library.metatab.org/lahsa.org-homeless_count-2018-los_angeles-1/data/codebook.csv,codebook,,
 Datafile,http://library.metatab.org/lahsa.org-homeless_count-2018-los_angeles-1/data/tracts.csv,tracts,,
 Datafile,http://library.metatab.org/lahsa.org-homeless_count-2018-los_angeles-1/data/communities.csv,communities,,
-""
+
 Section,Schema,DataType,Description,
 Table,codebook,,,
 Table.Column,column_name,string,,
