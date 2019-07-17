@@ -24,11 +24,34 @@ for shareing and commenting on notebooks.
 An important related project is [digitizing maps from monthly counts of
 Downtown San Diego homeless. ](https://downtown-homelesness.sandiegodata.org/)
 
+## Joining a Project
+
 If you'd like to formally join this project you can:
 
 * Create an share your own analysis of the data in the repository
 * Help with adding new datasets to the repository
 * Work on the programs -- a web application and image recognition -- for digitzing homelessness maps. 
 
-If you'd like to join the project, [please follow these instructions for joining a project. ](https://www.sandiegodata.org/get-data/projects/join/)
+If you'd like to join the project, [please follow these instructions for
+joining a project. ](https://www.sandiegodata.org/get-data/projects/join/)
+
+## Resources
+
+Important resource for this project include: 
+
+* [Github repo for this
+project](https://github.com/sandiegodata-projects/homelessness)
+* [Homelessness collection.](https://data.sandiegodata.org/collections/homelessness/)
+* [Urban Planning collection.
+](https://data.sandiegodata.org/collections/urban-planning/)
+* [Homeless map digitization project](https://downtown-homelesness.sandiegodata.org/)
+* [Tutorial Jupyter Notebook](https://colab.research.google.com/drive/1V2e77fMlddOsGJinbCZC7WWVHdC8MJ69)
+
+## Tools
+
+We recommend these tools, all of which are free, open source, or both: 
+
+* Jupyter Notebook, either via [Anaconda](https://www.anaconda.com/distribution/), or [Google Colaboratory](https://colab.research.google.com/notebooks/welcome.ipynb)
+* [Tableau Public](https://public.tableau.com/en-us/s/)
+* [QGIS](https://www.qgis.org/en/site/) for Geographic files
 
