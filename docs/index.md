@@ -1,6 +1,6 @@
 ---
-title: Downtown Homlessness
+title: San Diego Homelessness
 layout: default
 ---
 
-This is the Foo
+This data project collects a variety of datasets related to 
