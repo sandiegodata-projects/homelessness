@@ -56,3 +56,11 @@ We recommend these tools, all of which are free, open source, or both:
 * [Tableau Public](https://public.tableau.com/en-us/s/)
 * [QGIS](https://www.qgis.org/en/site/) for Geographic files
 
+## Research
+
+* [A Research Agenda for Ending Homelessness](http://endhomelessness.org/wp-content/uploads/2014/06/a-research-agenda-for-ending-homelessness.pdf)
+* [National Homeless Information Project](https://www.nhipdata.org/)
+* [San Diego Regional Taskforce for the Homeless](https://www.rtfhsd.org/)
+* [Economic Roudtable](https://economicrt.org/)
+
+
