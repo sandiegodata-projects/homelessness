@@ -37,7 +37,7 @@ def pitc(resource, doc, env, *args, **kwargs):
 
     r = doc.reference('pitc_2018_source')
     
-    yield "geoid community count".split()
+    yield "geoid tract community total_count".split()
     
     for d in  islice(r.iterdict,1,None):
         tract = d['Census Tract']
@@ -46,8 +46,8 @@ def pitc(resource, doc, env, *args, **kwargs):
         except ValueError:
             a,b = tract, ''
     
-        geoid = TigerTract(6,73,(a.zfill(3)+b.zfill(3))).convert(AcsGeoid)
+        geoid = TigerTract(6,73,(a.zfill(4)+b.zfill(2))).convert(AcsGeoid)
     
-        yield (geoid, d['Community'], d['Total Count'])
+        yield (geoid, d['Census Tract'], d['Community'], d['Total Count'])
         
     

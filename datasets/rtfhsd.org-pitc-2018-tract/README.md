@@ -21,3 +21,8 @@ file]((https://data.sandiegodata.org/dataset/hudexchange-info-hic-project/))
 has many columns that the ``sheltered_2018`` file does not, including street
 addresses for the facilities
 
+## Versions
+
+1. Initial Version
+2. Added descriptions to data dictionary
+

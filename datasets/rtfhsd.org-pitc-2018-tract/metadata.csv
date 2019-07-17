@@ -1,40 +1,42 @@
-Declare,metatab-latest,,,
-Title,"San Diego Point In Time Count 2018, Tracts",,,
-Description,"Unsheltered counts per tract and sheltered counts per facility, for 2018 San Diego Point in Time Count of homeless. ",,,
-Identifier,a49e9e6a-5bb2-495f-9e4e-ae1043895b35,,,
-Name,rtfhsd.org-pitc-2018-1,,,
-Dataset,pitc,,,
-Origin,rtfhsd.org,,,
-Time,2018,,,
-Space,,,,
-Grain,,,,
-Variant,,,,
-Version,1,,,
+Declare,metatab-latest
+Title,"San Diego Point In Time Count 2018, Tracts"
+Description,"Unsheltered counts per tract and sheltered counts per facility, for 2018 San"
+Description,Diego Point in Time Count of homeless.
+Identifier,a49e9e6a-5bb2-495f-9e4e-ae1043895b35
+Name,rtfhsd.org-pitc-2018-4
+Dataset,pitc
+Origin,rtfhsd.org
+Time,2018
+Space,
+Grain,
+Variant,
+Version,4
 Tag,los_angeles
-Created,2019-07-06T22:19:42,,,
-Modified,2019-07-07T14:46:44,,,
-Giturl,https://github.com/sandiegodata-projects/homelessness.git,,,
-,,,,
+Created,2019-07-06T22:19:42
+Modified,2019-07-17T16:31:54
+Giturl,https://github.com/sandiegodata-projects/homelessness.git
+""
 Section,Contacts,Email,Organization,Url
 Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
-,,,,
+""
 Section,Documentation,Title,Description,
 Documentation,file:README.md,README,,
 Documentation,https://www.rtfhsd.org/wp-content/uploads/2017/06/2018-WPoint-in-Time-Count-Annual-Report.pdf,WeAllCount 2018 Annual Report,,
-,,,,
+""
 Section,References,Name,Description,
 Reference,file:data/pitc-2018.csv#&encoding=ascii,pitc_2018_source,,
 Reference,https://www.rtfhsd.org/wp-content/uploads/2017/06/2018-Point-in-Time-Count-Census-Tract-Data.pdf,pitc_2018_pdf,PDF document from which pitc_2018_source data were scraped,
-,,,,
+""
 Section,Resources,Name,Description,
 Datafile,pylib/generate.py#pitc,unsheltered_2018,"Unsheltered count, by tract",
 Datafile,https://www.rtfhsd.org/wp-content/uploads/2017/06/Inventory-List-for-CA-601-San-Diego-County-and-City-CoC-2018-HIC-1.xlsx#end=222,sheltered_2018,Housing inventory and sheltered count,
-,,,,
+""
 Section,Schema,DataType,Description,
 Table,unsheltered_2018,,,
-Table.Column,geoid,string,,
-Table.Column,community,string,,
-Table.Column,count,number,,
+Table.Column,geoid,string,Tract Geoid,
+Table.Column,tract,string,Tract number,
+Table.Column,community,string,Community Name where tract is located,
+Table.Column,count,number,Count of unsheltered homless,
 Table,sheltered_2018,,,
 Table.Column,row,integer,Row #,
 Table.Column,year,integer,Year,
