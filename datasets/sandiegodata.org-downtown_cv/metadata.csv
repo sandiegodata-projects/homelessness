@@ -1,0 +1,56 @@
+Declare,metatab-latest
+Title,San Diego Downtown Homless Computer Vision Package
+Description,Files and code for analyzing san diego downtown homelessness  data with computer
+Description,vision
+Identifier,e53f2ae8-44ad-47db-8b79-fd6717fcb5e5
+Name,sandiegodata.org-downtown_cv-1
+Dataset,downtown_cv
+Origin,sandiegodata.org
+Time,
+Space,
+Grain,
+Variant,
+Version,1
+Created,2019-09-08T15:17:51
+Modified,2019-09-09T01:06:55
+Giturl,https://github.com/sandiegodata-projects/homelessness.git
+
+Section,Contacts,Email,Organization,Url
+Wrangler,Eric Busboom,eric@civicknowledge.com,Civic Knowledge,http://civicknowledge.com
+
+Section,Documentation,Title,Description,
+Documentation,file:README.md,README,,
+
+Section,References,Name,Description,
+
+Section,Resources,Name,Description,
+Datafile,notebooks/rundf.ipynb#gcp,gcp,Ground cdontrol points,
+Datafile,notebooks/rundf.ipynb#intersection_regions,intersection_regions,Polygon transformations for each the intersections of each map,
+Datafile,notebooks/rundf.ipynb#intersections,intersections,List of intersections.,
+
+Section,Schema,DataType,Description,,
+Table,gcp,,,,
+Table.Column,image_url,string,,,
+Table.Column,x,integer,,,
+Table.Column,y,integer,,,
+Table.Column,width,integer,,,
+Table.Column,height,integer,,,
+Table.Column,intersection,string,,,
+Table,intersections,,,,
+Table.Column,geometry,string,,,
+Table.Column,neighborhood,string,,,
+Table.Column,intersection,string,,,
+Table,intersection_regions,,,,
+Table.Column,url,string,Url to a map image,,
+Table.Column,neighborhood,string,Name of the neighborhood for the maps,,
+Table.Column,year,integer,Year portion of the data collection date. ,,
+Table.Column,intersections_id,string,A string composed of the names of the four intersections. ,,
+Table.Column,intersection_group,string,"A name, based on the neighbrhood, that identifies distinct intersection_id strings. ",,
+Table.Column,source_inv,string,"The intersection polygon, fromed from the intersection points,  in WKT format, in the pixel coordinate space. This version is inverted, with the Y coordinate being subtracted from 2000, so the orientation of the Y axis is the same as the EPSG:2230 geographic coordinate space. ",,
+Table.Column,source,string,"Like source_inv, but the Y axis is not inverted, so the coordinates are the same as the image. ",,
+Table.Column,source_area,number,"Area of source shape, in square pixels",,
+Table.Column,source_shape,string,"(X,Y) shape of source polygon bounding box",,
+Table.Column,source_shape_x,integer,X value of source_shape,,
+Table.Column,source_shape_y,integer,Y value of source_shape,,
+Table.Column,dest,string,"The intersection polygon, but in EPSG:2230 (State plane 6, California, Feet) coordinates. ",,
+Table.Column,matrix,string,"An affine transformation matric that transforms from the coorinates of source_inv to dest. When pixel locations are properly inverted, this matrix transforms from pixel locations to geographic locations. ",,
