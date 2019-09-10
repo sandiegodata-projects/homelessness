@@ -6,3 +6,4 @@ provided with any documentation, and the organization that digitized the data
 is not known.
 
 The datapackage also includes counts aggregated to tracts, per type of shelter. 
+
