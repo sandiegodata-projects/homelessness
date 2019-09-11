@@ -5,6 +5,7 @@ from . import image_list_url
 from .download import download_to_file
 import numpy as np
 from shapely.geometry import Polygon
+from shapely import wkt
 from pathlib import Path
 import urllib.request
 import cv2
@@ -58,6 +59,20 @@ def poly_to_array(poly):
         return  np.array(poly.exterior.coords)[:-1]
     except AttributeError:
         return poly
+
+
+def upper_left(poly):
+    """Find the point closest to the origin, in image coordinates"""
+
+    try:
+        poly.encode()
+        pts = poly_to_array(wkt.loads(poly))
+    except AttributeError:
+        pts = poly_to_array(poly)
+
+    dists = [np.linalg.norm(np.array((0, 0)) - p) for p in pts]
+
+    return pts[np.argmin(dists)]
 
 def reorder_points(v):
     """Reorder points to ensure the shape is valid. The only works if all of the points

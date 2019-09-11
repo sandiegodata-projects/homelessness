@@ -2,24 +2,28 @@ import dtcv
 import matplotlib.pyplot as plt
 import numpy as np
 from shapely import wkt
-def grid_shape(i):
+def grid_shape(i, max_x=4):
     """Return a good grid shape, in x,y, for a number if items i"""
 
     from math import sqrt, ceil
     x = round(sqrt(i))
+
+    if x > max_x:
+        x = max_x
+
     y = ceil(i / x)
 
     return x, y
 
 
-def plot_image_and_poly(r, shape=None, figsize=(20, 20)):
+def plot_image_and_poly(r, shape=None, figsize=(20, 20), max_x=4, titlef=None):
     """Given a row in the intersection_regions dataframe, plot the image and
     the intersection polygon"""
 
 
     try:
         records = [e[1] for e in r.iterrows()]
-        ncols, nrows = grid_shape(len(r))
+        ncols, nrows = grid_shape(len(r), max_x=max_x)
     except AttributeError:
         records = [r]
         ncols, nrows = 1, 1
@@ -39,6 +43,8 @@ def plot_image_and_poly(r, shape=None, figsize=(20, 20)):
         ax.imshow(img)
         pts = np.array((wkt.loads(rec.source)).exterior.coords)
         ax.plot([e[0] for e in pts], [e[1] for e in pts], marker='s', color='red')
+        if titlef:
+            ax.set_title(titlef(rec))
 
 
 
