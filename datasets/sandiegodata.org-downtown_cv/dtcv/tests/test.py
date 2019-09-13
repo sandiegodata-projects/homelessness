@@ -10,13 +10,12 @@ __license__ = "mit"
 import logging
 import json
 from dtcv.download import logger as download_logger
+from dtcv.counts import get_count_files, load_count_rows, count_df, file_df
 
 #download_logger.setLevel(logging.DEBUG)
 #logging.basicConfig(level=logging.DEBUG)
 
 def test_fib():
-    from dtcv.counts import extract_count_annotations
 
-    df = intersections_df()
-
-    print(df.head().T)
+    df = file_df();
+    print(df.head())

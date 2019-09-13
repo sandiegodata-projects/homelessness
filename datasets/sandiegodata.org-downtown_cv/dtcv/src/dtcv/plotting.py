@@ -39,7 +39,7 @@ def plot_image_and_poly(r, shape=None, figsize=(20, 20), max_x=4, titlef=None):
         axes = [axes]
 
     for ax, rec in zip(axes, records):
-        img = dtcv.get_image(rec.url)
+        img = dtcv.get_image(rec.image_url)
         ax.imshow(img)
         pts = np.array((wkt.loads(rec.source)).exterior.coords)
         ax.plot([e[0] for e in pts], [e[1] for e in pts], marker='s', color='red')

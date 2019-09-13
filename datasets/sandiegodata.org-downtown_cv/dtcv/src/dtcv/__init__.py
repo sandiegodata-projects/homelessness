@@ -15,6 +15,6 @@ intersections_url = 'http://ds.civicknowledge.org.s3.amazonaws.com/downtownsandi
 
 
 from .gcp import gcp_transform_df, gcp_df, intersections_df
-
+from .counts import file_df, count_df
 
 from .images import get_image
